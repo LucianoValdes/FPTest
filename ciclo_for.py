@@ -1,9 +1,9 @@
-
-# for J in range(10):
-#     print("TABLA DEL",J+1)
-#     print()
-#     for i in range(10):
-#         print(J+1,"x",i+1,"=",(i+1)*(J+1))
+Tabla=int(input("Ingrese la tabla que desea saber"))
+for J in range(10):
+    print("TABLA DEL",Tabla)
+    print()
+    for i in range(10):
+        print(J+1,"x",i+1,"=",(i+1)*(Tabla))
 
 #CALCULAR EL PROMEDIO DE NOTAS CON FOR
 # total=0
@@ -53,23 +53,23 @@
 
 #ENCONTRAR EL NUMERO 
 
-NUM=15
-for i in range(5):
-    print("Ingrese un numero, del 1 hasta el 20, Tiene 5 intentos")
-    usu=int(input())
-    if usu == NUM:
-        print("Perfecto acertaste")
-        break
-    else:
-        if usu >= 16 and usu <=20:
-            print("te pasaste")
-        if usu >=0 and usu <=9:
-            print("el numero que ingresaste es muy bajo")
-        else:
-            if usu >= 10 and usu <= 14:
-                print("el numero que ingresaste esta muy cerca , es mas arriba")
+# NUM=15
+# for i in range(5):
+#     print("Ingrese un numero, del 1 hasta el 20, Tiene 5 intentos")
+#     usu=int(input())
+#     if usu == NUM:
+#         print("Perfecto acertaste")
+#         break
+#     else:
+#         if usu >= 16 and usu <=20:
+#             print("te pasaste")
+#         if usu >=0 and usu <=9:
+#             print("el numero que ingresaste es muy bajo")
+#         else:
+#             if usu >= 10 and usu <= 14:
+#                 print("el numero que ingresaste esta muy cerca , es mas arriba")
 
-    print("ingresaste un valor fuera de rango")
+#     print("ingresaste un valor fuera de rango")
             
         
 
